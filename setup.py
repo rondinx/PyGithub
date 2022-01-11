@@ -107,7 +107,7 @@ if __name__ == "__main__":
         install_requires=[
             "deprecated",
             "pyjwt>=2.0",
-            "pynacl>=1.4.0",
+            "pynacl==1.4.0",
             "requests>=2.14.0",
         ],
         extras_require={"integrations": ["cryptography"]},
